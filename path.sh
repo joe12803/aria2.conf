@@ -12,7 +12,7 @@ nspath="${spath}_en.mp4"
 srt="${fl}.srt"
 #srt="Simplified\ Chinese.chi.srt"
 # ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" "$nspath" 
-nohup ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" "$nspath" >/dev/null 2>&1 &
+ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" "$nspath" >/dev/null 2>&1 &
 str="\n"
 sstr=$(echo -e $str)
 echo $sstr

@@ -1,6 +1,6 @@
 #!/bin/bash
   
-files="/root//downloads/The SpongeBob Movie Sponge On The Run (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/The.SpongeBob.Movie.Sponge.On.The.Run.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4"
+files="/content/drive/Shared drives/Happy English Drive 2/google cola/The SpongeBob Movie Sponge On The Run (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/The.SpongeBob.Movie.Sponge.On.The.Run.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4"
 #获取扩展名
 #ext=${files##*.}
 #fl=$(echo $files|sed -e 's/ /\\ /g;s/\[/\\[/g;s/\]/\\]/g;s/(/\\(/g; s/)/\\)/g')

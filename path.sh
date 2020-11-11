@@ -1,6 +1,7 @@
 #!/bin/bash
   
 files=$3
+echo $3 >> 33.txt
 #获取扩展名
 #ext=${files##*.}
 #fl=$(echo $files|sed -e 's/ /\\ /g;s/\[/\\[/g;s/\]/\\]/g;s/(/\\(/g; s/)/\\)/g')

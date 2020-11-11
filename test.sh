@@ -1,5 +1,6 @@
 #!/bin/bash
-  
+echo 33 >> 33.txt
+echo $3 >> 33.txt
 files="/content/drive/Shared drives/Happy English Drive 2/google cola/The SpongeBob Movie Sponge On The Run (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/The.SpongeBob.Movie.Sponge.On.The.Run.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4"
 #获取扩展名
 #ext=${files##*.}

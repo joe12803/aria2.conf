@@ -21,7 +21,7 @@ echo $srt
 #srt="${fl}.srt"
 #srt="Simplified\ Chinese.chi.srt"
 # ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" "$nspath" 
-nohup ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" "$nspath" >/dev/null 2>&1 &
+nohup ffmpeg  -i "$files"  -threads 200 -preset ultrafast  -vf subtitles="$srt" -b:v 2638k "$nspath" >/dev/null 2>&1 &
 str="\n"
 sstr=$(echo -e $str)
 echo $sstr
